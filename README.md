@@ -38,4 +38,5 @@ We include subcategories musicals and spaces as theater campaigns, but they are 
 - What are some other possible tables and/or graphs that we could create?
 We could make a box plot showing the distribution of Goals($) with Successful Outcomes by Launch Month in "plays" campaigns. 
 Using this graphic we can observe the range of goals that are likely to be successful when launched in a given month. This might help Louise set a goal that is more likely to be funded depending on when she needs to launch the campaign, or help her choose a launch date if she's determined how much money she needs to raise for her campaign.
-(post graphic here)
+
+![Successful Outcomes by Month boxplot](https://github.com/rptseng/kickstarter-analysis/blob/main/resources/Successful_Campaign_Goals_by_Month_boxplot.png)
