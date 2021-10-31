@@ -14,6 +14,8 @@ This visualization displays the outcomes "Theater" Kickstarter campaigns by the 
 ### Analysis of Outcomes Based on Goals
 This visualization displays the outcomes of "Plays" Kickstarter campaigns by their funding goals, grouped by intervals of $5000.
 
+![Outcomes vs goals](https://github.com/rptseng/kickstarter-analysis/blob/main/resources/Outcomes_vs_goals.png)
+
 ### Challenges and Difficulties Encountered
 Theater outcomes by launch date does not factor in the year
 
