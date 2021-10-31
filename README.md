@@ -2,7 +2,7 @@
 
 ## Overview of Project
 
-### Purpose
+git### Purpose
 Using a dataset from Kickstarter, we will perform 
 
 ## Analysis and Challenges
