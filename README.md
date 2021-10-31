@@ -9,7 +9,7 @@ Using a dataset from Kickstarter, we will perform
 
 ### Analysis of Outcomes Based on Launch Date
 This visualization displays the outcomes "Theater" Kickstarter campaigns by the month of the year that they were launched.
-![Outcomes Based on Launch Date.png](https://github.com/rptseng/kickstarter-analysis/blob/f804f65593848dccdd2b94b9a9d840bc2c37aa33/Outcomes%20Based%20on%20Launch%20Date.png)
+![Outcomes Based on Launch Date.png](https://github.com/rptseng/kickstarter-analysis/blob/main/resources/Theater_Outcomes_vs_Launch.png)
 
 ### Analysis of Outcomes Based on Goals
 This visualization displays the outcomes of "Plays" Kickstarter campaigns by their funding goals, grouped by intervals of $5000.
