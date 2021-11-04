@@ -1,9 +1,10 @@
 # Kickstarting with Excel
 
 ## Overview of Project
+Louise created a Kickstarter campaign for her play *Fever* that almost achieved its fundraising goal in a short amount of time. She wants to know how the outcomes of different campaigns fared in relation to their launch dates and funding goals.
 
 ### Purpose
-Using a dataset from Kickstarter, we will perform 
+Using a dataset from Kickstarter, we will create visualizations for the campaign outcomes based launch date under the Parent Category "Theater" and ratio of outcomes based on funding goals under the Subcategory "plays".
 
 ## Analysis and Challenges
 
@@ -17,27 +18,23 @@ This visualization displays the outcomes of "Plays" Kickstarter campaigns by the
 ![Outcomes vs goals](https://github.com/rptseng/kickstarter-analysis/blob/main/resources/Outcomes_vs_goals.png)
 
 ### Challenges and Difficulties Encountered
-Theater outcomes by launch date does not factor in the year
+We may encounter difficulty generating a recommendation for a launch date and goal if we do not analyze the success rates on the intersection of these two variables. The "Analysis of Outcomes Based on Launch Date" only counts successes by month irrespective of goal amount, while "Analysis of Outcomes Based on Goals" does not consider the launch date or the number of samples in each goal interval.
 
 ## Results
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
 
-Are these conclusions to be drawn strictly from the pivot tables produced in the Challenge?
-
-The month with the most successful Theater campaigns is May
-The month with the highest percentage of successful Theater campaigns is May
-
+The months with the highest number of successfully funded "Theater" campaigns are May, June, and July respectively. Additionally, these three months also feature the highest percentage of successfully funded campaigns against the total campaigns launched (May 67%, June 65%, July 63%). Based on this slice, we may recommend "Theater" campaigns to feature a launch date from May-July because they correlate with successful outcomes.
 
 - What can you conclude about the Outcomes based on Goals?
 
-The highest percentage of successful campaigns for plays are those with goals set at less than $1000
+The highest ratio of successes to failures occurs in the "Less than $1000" goal bin at 75.8% successes, followed by the "$1000 too $4999" bucket at 72.7% successes. The results may suggest that the lower the goal, the higher the likelihood of getting successfully funded. 
 
 - What are some limitations of this dataset?
-Is it the limitations of the data set or limitations of the analysis?
 
-We exclude live campaigns
-We include subcategories musicals and spaces as theater campaigns, but they are not plays.
+There is an inconsistency where "Analysis of Outcomes Based on Launch Date" includes 1369 outcomes from the Parent Category "theater" while "Analysis of Outcomes Based on Goals" only includes 1047 outcomes from its Subcategory "plays". There is an opportunity to put both analyses at the same level of granularity so the findings of each analysis are more applicable to each other.
+
+A limitation on "Analysis of Outcomes Based on Goals" is the small number of samples at the higher goal buckets. There are 961/1047 total campaigns in the first four intervals, and only 86/1047 spread over the last eight intervals. It would be important to consider that the rate of goals funded above $15,000 is only being represented on a small sample size.
 
 - What are some other possible tables and/or graphs that we could create?
 
